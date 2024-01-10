@@ -128,8 +128,10 @@ nav .active {
 }
 
 #proyectos footer, #proyectos footer a, #proyectos footer .fa-github, #proyectos
-.fa-linkedin {
-    color: red;
+.fa-linkedin
+#sobre-mi footer, #sobre-mi footer a, #sobre-mi footer .fa-github, #sobre-mi
+.fa-linkedin{
+    color: #E20000;
     font-weight: 100;
 }
 
@@ -204,4 +206,42 @@ nav .active {
 #stack .tecnologia i{
     font-size: 60px;
     color:#6A6A6A;
+}
+#experiencia img, #formacion img {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    filter: grayscale(100%);
+}
+#experiencia img:hover, #formacion img:hover {
+    filter: grayscale(0%);
+}
+
+#experiencia h3, #formacion h3 {
+    padding: 10px;
+    color: #6A6A6A ;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+#experiencia h4 {
+    font-size: 17px;
+    color: #370A6D;
+    text-align: left;
+}
+#experiencia h5 {
+    color: #6A6A6A;
+    font-size: 14px ;
+}
+#experiencia p {
+    color: #6A6A6A;
+    font-size: 16px ;
+}
+#experiencia i:hover {
+    color: #282828;}
+
+#formacion h2, #experiencia h2{
+    font-weight: 400;
+    font-size: 24;
+    color: #370A6D;
 }
