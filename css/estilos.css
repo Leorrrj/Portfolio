@@ -10,7 +10,8 @@ body {
     background-image: url("../imagenes/fondo-contacto.png");
     background-size: cover;
 }
-.cv a{
+
+.cv a {
     border-radius: 20px;
     color: white;
     background-color: red;
@@ -18,7 +19,8 @@ body {
     padding: 5px;
     font-weight: 100;
 }
-.cv a:hover{
+
+.cv a:hover {
     background-color: #370a6d;
     color: white;
 
@@ -40,64 +42,25 @@ h1 {
     color: #6a6a6a;
 }
 
-.btn {
-    background-color: white;
-    color: #370a6d;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.btn:hover {
-    background-color: #370a6d;
-    color: white;
-    text-decoration: solid;
-    cursor: pointer;
+.fa-download {
+    font-weight: 900;
 }
 
 .btn-rojo {
-    background-color: red;
+    background-color: #E20000;
     color: white;
-    padding: 5px;
-    text-decoration: none;
-    border-radius: 15px;
-}
-
-.link-rojo {
-    color: red;
-    padding: 5px;
-    text-decoration: none;
-    border-radius: 15px;
-}
-
-.btn-rojo:hover {
-    background-color: #370a6d;
-}
-
-#contacto footer, #contacto footer a, #proyectos footer .fa-github,
-.fa-linkedin
-#inicio footer, #inicio footer a, #inicio footer .fa-github, #inicio
-.fa-linkedin, .sponsor {
-    color: white;
+    border-radius: 20px;
     font-weight: 100;
-}    
-
-footer .fa-whatsapp {
-    color: white;
-    position: fixed;
-    right: 70px;
-    bottom: 0px;
-    font-size: 31px;
-    background-color: #370a6d;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 5px;
 }
 
-footer .fa-github,
-.fa-linkedin {
+.link-rojo{
+    color:#E20000;
+    
+}
+
+.btn-rojo:hover{
+    background-color: #370a6d;
     color: white;
-    font-size: 38px;
-    height: 40px;
 }
 
 nav .active {
@@ -126,15 +89,6 @@ nav .active {
     color: #6a6a6a;
     height: 100px;
 }
-
-#proyectos footer, #proyectos footer a, #proyectos footer .fa-github, #proyectos
-.fa-linkedin
-#sobre-mi footer, #sobre-mi footer a, #sobre-mi footer .fa-github, #sobre-mi
-.fa-linkedin{
-    color: #E20000;
-    font-weight: 100;
-}
-
 #sobre-mi .btn {
     background-color: red;
     color: white;
@@ -154,19 +108,25 @@ nav .active {
 }
 
 #inicio p {
-    border-radius: 10px;
     color: white;
-    font-weight: bold;
+    border: 1px solid white;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 17px;
 }
-#sobre-mi .leo{
-    max-width:100%;
+
+#sobre-mi .leo {
+    max-width: 100%;
     border-radius: 50%;
     margin-top: -134px;
 }
-#sobre-mi h2{
+
+#sobre-mi h2 {
     color: white;
 }
-#sobre-mi h3, .tech{
+
+#sobre-mi h3,
+.tech {
     font-size: 14px;
     font-weight: bold;
     background-color: white;
@@ -175,102 +135,202 @@ nav .active {
     box-sizing: border-box;
 
 }
-.stack{
-    
+
+.stack {
+
     background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
- 
+
 }
-#sobre-mi .fa-html5{
+
+#sobre-mi .fa-html5 {
     font-size: 60px;
     color: #6A6A6A;
 }
 
-#stack{
+#stack {
     background: rgb(125, 7, 7);
     background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
 }
-#stack h2{
+
+#stack h2 {
     color: white;
     font-size: 24px;
 }
-#stack h3{
+
+#stack h3 {
     font-size: 14px;
     color: #282828;
     font-weight: 300;
 }
-#stack .tecnologia{
+
+#stack .tecnologia {
     background-color: white;
     text-align: center;
     border-radius: 5px;
 }
-#stack .tecnologia i{
+
+#stack .tecnologia i {
     font-size: 60px;
-    color:#6A6A6A;
+    color: #6A6A6A;
 }
-#experiencia img, #formacion img {
+
+#experiencia img,
+#formacion img {
     height: auto;
     max-width: 100%;
     position: relative;
     filter: grayscale(100%);
 }
-#experiencia img:hover, #formacion img:hover {
+
+#experiencia img:hover,
+#formacion img:hover {
     filter: grayscale(0%);
 }
 
-#experiencia h3, #formacion h3{
-    padding: 10px;
-    color: #6A6A6A ;
+#experiencia h3,
+#formacion h3 {
+    color: #6A6A6A;
     font-size: 18px;
     font-weight: 600;
     text-align: left;
 }
+
 #experiencia h4 {
     font-size: 17px;
     color: #370A6D;
-    text-align: left;
 }
+
 #experiencia h5 {
     color: #6A6A6A;
-    font-size: 14px ;
+    font-size: 14px;
 }
+
 #experiencia p {
     color: #6A6A6A;
-    font-size: 16px ;
+    font-size: 16px;
 }
-#experiencia i:hover {
-    color: #282828;}
 
-#formacion h2, #experiencia h2, #idioma h2{
+#experiencia i:hover {
+    color: #282828;
+}
+
+#formacion h2,
+#experiencia h2,
+#idioma h2 {
     font-weight: 400;
-    font-size: 24;
+    font-size: 24px;
     color: #370A6D;
 }
-#idiomas{
+
+#idiomas {
     background-color: #eee;
 }
+
 #idiomas i {
     font-size: 80px;
     color: white;
     text-align: center;
 }
-#idiomas h2{
+
+#idiomas h2 {
     font-size: 16px;
     font-weight: 600px;
     color: #282828;
 }
+
 #idiomas .card-idioma {
     border-radius: 15px;
-    }
+}
 
 #idiomas .card {
     background-color: #370A6D;
     border-radius: 15px;
     padding: 40px 0;
-    }
+}
 
 #idiomas ul {
     padding: 0px;
     font-size: 14px;
     color: #282828;
     list-style-type: none;
+}
+
+#bio img {
+    border-radius: 50%;
+}
+
+.btn-blanco {
+    background-color: white;
+    color: #370a6d;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.btn-blanco:hover {
+    background-color: #370a6d;
+    color: white;
+    font-weight: 500;
+}
+#contacto textarea {
+    height: 150px;
+}
+
+footer .fa-whatsapp {
+    color: white;
+    position: fixed;
+    right: 70px;
+    bottom: 0px;
+    font-size: 31px;
+    background-color: #370a6d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer .fa-linkedin-in {
+    color: #E20000;
+    font-size: 28px;
+    background-color: white;
+    border-radius: 22px;
+    padding: 8px 8px 4px 8px;
+    margin-left: 10px;
+}
+
+#contacto .fa-linkedin-in, #inicio .fa-linkedin-in {
+    color: #E20000;
+}
+
+#proyectos footer, #proyectos footer a, #proyectos .fa-linkedin-in, #sobre-mi footer, #sobre-mi footer a, #sobre-mi .fa-linkedin-in {
+    color: #E20000;
+    font-weight: 100;
+}
+#contacto footer, #contacto footer a,  #contacto .fa-linkedin-in,
+#inicio footer, #inicio footer a,  #inicio .fa-linkedin-in {
+    color: white;
+    font-weight: 100;
+}
+
+footer .fa-github{
+    font-size: 38px;
+    height: 40px;
+}
+
+
+@media (max-width: 750px) {
+
+    /* Para mobile */
+    #inicio, #contacto {
+        background-size: cover;
+    }
+    #proyectos {
+        background-size: contain;
+    }
+
+    #inicio .input-home p {
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
+
+    footer a {
+        color: #E20000;
+    }
 }
